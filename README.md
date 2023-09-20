@@ -20,7 +20,7 @@ For more details, please refer to the following research paper:
 - multiplex viewpoints
 
 ## Downloads
-We have provided some sample data. The relevant links are as follows: [[Baidu_Cloud]](https://pan.baidu.com/s/1akR8josre7Q1znQHUCjOzg ) (access code: bcmi) [[OneDrive]](https://1drv.ms/u/s!AoAsEmY10BjHgXBSaIRknROeo_i0?e=prdugm)
+We have provided some sample data. The relevant links are as follows: [[Baidu_Cloud]](https://pan.baidu.com/s/1akR8josre7Q1znQHUCjOzg ) (access code: bcmi)
 
 If you are interested in our full dataset, please feel free to contact us via [Email](narumimaria@sjtu.edu.cn).
 
