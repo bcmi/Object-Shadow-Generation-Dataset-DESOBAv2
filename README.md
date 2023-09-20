@@ -38,3 +38,9 @@ After inpainting, the pixel values in the background may be slightly changed, th
 
 Given an image with $K$ detected instances, we use $M_{o,k}$ (resp., $M_{s,k}$) to denote the object (resp., shadow) mask of the $k$-th object. When choosing the $k$-th object as foreground object,  $M_{o,k}$ (resp., $M_{s,k}$) is 
 the foreground object (resp., shadow) mask $M_{fo}$ (resp., $M_{fs}$). We can merge $\{M_{o,1}, \ldots, M_{o,k-1}, M_{o,k+1}, \ldots, M_{o,K}\}$ as the background object mask $M_{bo}$. Similarly,  we can merge $\{M_{s,1}, \ldots, M_{s,k-1}, M_{s,k+1}, \ldots, M_{s,K}\}$ as the background shadow mask $M_{bs}$. Up to now, we obtain a tuple in the form of $\{I_c,M_{fo},M_{fs},M_{bo},M_{bs},I_g\}$, which is consistent with the tuple format in DESOBA dataset.
+
+
+
+[1]Wang, Tianyu, et al. "Instance shadow detection with a single-stage detector." *IEEE Transactions on Pattern Analysis and Machine Intelligence* 45.3 (2022): 3259-3273.
+
+[2]Rombach, Robin, et al. "High-resolution image synthesis with latent diffusion models." *Proceedings of the IEEE/CVF conference on computer vision and pattern recognition*. 2022.
