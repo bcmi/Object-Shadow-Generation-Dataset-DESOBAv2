@@ -6,7 +6,7 @@
 
 For more details, please refer to the following research paper:
 
-> **RdSOBA: Rendered Shadow-Object Association Dataset**  [[arXiv]](https://arxiv.org/pdf/2308.09972)<br>
+> **DESOBAv2: owards Large-scale Real-world Dataset for Shadow Generation**  [[arXiv]](https://arxiv.org/pdf/2308.09972)<br>
 >
 > Qingyang Liu Tao†, Jianting Wang†, Li Niu
 
