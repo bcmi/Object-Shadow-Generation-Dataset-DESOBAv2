@@ -22,9 +22,10 @@ For more details, please refer to the following research paper:
 
 ## Downloads
 
-DESOBAv2 dataset of 256*256 size (with background object mask and background shadow mask): [[Baidu_Cloud]](https://pan.baidu.com/s/1Yavx45tu78cy6Yal1_WwGw) (access code: bcmi)
+DESOBAv2 Dataset: 
+- [[Baidu_Cloud]](https://pan.baidu.com/s/1_nXb3ElxImmsq2BPcBGdPQ?pwd=bcmi) (access code: bcmi)
+- 
 
-If you are interested in our full dataset, please feel free to contact ustcnewly@sjtu.edu.cn.
 
 ## Details
 
