@@ -2,7 +2,7 @@
 
 This is the official repository for the following paper:
 
-> **Shadow Generation for Composite Image Using Diffusion Model**  [arXiv]<br>
+> **Shadow Generation for Composite Image Using Diffusion Model**  [[arXiv]](https://arxiv.org/pdf/2403.15234.pdf)<br>
 >
 > Qingyang Liu, Junqi You, Jianting Wang, Xinhao Tao, Bo Zhang, Li Niu<br>
 > Accepted by **CVPR 2024**.
