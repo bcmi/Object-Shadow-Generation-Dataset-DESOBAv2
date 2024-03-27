@@ -23,7 +23,12 @@ You can download the full DESOBAv2 Dataset from [[Baidu_Cloud]](https://pan.baid
 We also release 22469 unused shadow images  [[Baidu_Cloud]](https://pan.baidu.com/s/1jfRADN2HI2YjL4L7y1JhmA) (access code: bcmi)
  [[One Drive]](https://1drv.ms/u/c/f4cc25a47574cccf/EYyhklCnf8ZPjzTXCDvXHjQBXwwvhLHzTeaD5B0Nf8w5Jg?e=kn48Vq), in case that you want to extend DESOBAv2 dataset. 
 
+## Our SGDiffusion
+Here we provide PyTorch implementation and the trained model of our SGRNet.
 
+### Environment
+    conda env create -f environment.yaml
+    conda activate SGDiffusion
 
 ## Other Resources
 
