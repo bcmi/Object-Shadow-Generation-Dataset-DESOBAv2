@@ -24,12 +24,24 @@ We also release 22469 unused shadow images  [[Baidu_Cloud]](https://pan.baidu.co
  [[One Drive]](https://1drv.ms/u/c/f4cc25a47574cccf/EYyhklCnf8ZPjzTXCDvXHjQBXwwvhLHzTeaD5B0Nf8w5Jg?e=kn48Vq), in case that you want to extend DESOBAv2 dataset. 
 
 ## Our SGDiffusion
-Here we provide PyTorch implementation and the trained model of our SGRNet.
+Here we provide PyTorch implementation and the trained model of our SGDiffusion.
 
 ### Environment
     conda env create -f environment.yaml
     conda activate SGDiffusion
 
+### Training
+    python train_SGDiffusion.py
+
+### Inference
+    python infer_SGDiffusion.py
+
+### Post-processing
+    python post_processing.py
+
+### Evaluation
+    python eval_result.py
+    
 ## Other Resources
 
 + [Awesome-Object-Shadow-Generation](https://github.com/bcmi/Awesome-Object-Shadow-Generation)
