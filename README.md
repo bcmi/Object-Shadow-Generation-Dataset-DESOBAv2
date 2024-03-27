@@ -1,4 +1,4 @@
-# Real-world Shadow Generation Dataset DESOBAv2
+# Real-world Shadow Generation Dataset DESOBAv2 and the Official Implementation of SGDiffusion
 
 This is the official repository for the following paper:
 
@@ -25,6 +25,12 @@ We also release 22469 unused shadow images  [[Baidu_Cloud]](https://pan.baidu.co
 
 ## Our SGDiffusion
 Here we provide PyTorch implementation and the trained model of our SGDiffusion.
+
+### Installation
+- Clone this repo:
+    git clone https://github.com/bcmi/Object-Shadow-Generation-Dataset-DESOBAv2.git
+- Download the DESOBAv2 dataset from [**Baidu Cloud**](https://pan.baidu.com/s/1_nXb3ElxImmsq2BPcBGdPQ?pwd=bcmi) (access code: bcmi) or [[One Drive]](https://1drv.ms/f/c/f4cc25a47574cccf/EmbMRAowxytJiM1KHeeeMqQBD4p1SyIShUdO2PZArkGOIA?e=sEd7ga). Unzip `desobav2-256x256.rar` to `./data/`, and rename it to `desobav2`.
+- Download the checkpoints from [**Baidu Cloud**](https://pan.baidu.com/s/1sJWLcuNysdDvA1W4Ps8dfg) (access code: bcmi). Unzip `ckpt.rar` to `./data/`.
 
 ### Environment
     conda env create -f environment.yaml
