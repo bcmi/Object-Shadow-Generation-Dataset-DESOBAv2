@@ -9,6 +9,8 @@ This is the official repository for the following paper:
 
 **Our model has been integrated into our image composition toolbox libcom https://github.com/bcmi/libcom. Welcome to visit and try ＼(^▽^)／** 
 
+Our model can generally achieve good results for the small objects or the objects with simple shapes. For the large objects or the objects with complex shapes, you can sample a few times and pick the most satisfactory one. Using more training samples or using more advanced foundation model (e.g., SDXL) may further improve the results. 
+
 
 ## Dataset
 
