@@ -22,7 +22,7 @@ Our model can generally achieve good results for the small objects or the object
 
 You can download the full DESOBAv2 Dataset from [[Baidu_Cloud]](https://pan.baidu.com/s/1_nXb3ElxImmsq2BPcBGdPQ?pwd=bcmi) (access code: bcmi) or [[One Drive]](https://1drv.ms/f/c/f4cc25a47574cccf/EmbMRAowxytJiM1KHeeeMqQBD4p1SyIShUdO2PZArkGOIA?e=sEd7ga). We release two versions: the full-resolution version and 256x256 version. 
 
-We also release 22469 unused shadow images  [[Baidu_Cloud]](https://pan.baidu.com/s/1jfRADN2HI2YjL4L7y1JhmA) (access code: bcmi)
+We also release 22469 unused shadow images  [[Baidu_Cloud]](https://pan.baidu.com/s/1jfRADN2HI2YjL4L7y1JhmA) (access code: bcmi) or
  [[One Drive]](https://1drv.ms/u/c/f4cc25a47574cccf/EYyhklCnf8ZPjzTXCDvXHjQBXwwvhLHzTeaD5B0Nf8w5Jg?e=kn48Vq), in case that you want to extend DESOBAv2 dataset. 
 
 ## Our SGDiffusion
@@ -31,8 +31,9 @@ Here we provide PyTorch implementation and the trained model of our SGDiffusion.
 ### Installation
 - Clone this repo:
     git clone https://github.com/bcmi/Object-Shadow-Generation-Dataset-DESOBAv2.git
-- Download the DESOBAv2 dataset from [**Baidu Cloud**](https://pan.baidu.com/s/1_nXb3ElxImmsq2BPcBGdPQ?pwd=bcmi) (access code: bcmi) or [[One Drive]](https://1drv.ms/f/c/f4cc25a47574cccf/EmbMRAowxytJiM1KHeeeMqQBD4p1SyIShUdO2PZArkGOIA?e=sEd7ga). Unzip `desobav2-256x256.rar` to `./data/`, and rename it to `desobav2`.
-- Download the checkpoints from [**Baidu Cloud**](https://pan.baidu.com/s/11tr_H9YYIM7UzwOtbHzmpQ?pwd=bcmi) (access code: bcmi) or [[One Drive]](https://1drv.ms/u/c/f4cc25a47574cccf/EY96hOtJjiNPvLm0PBc9SecBais_H9MKRwHL7kme_uTsKQ?e=E5XsHe). Unzip `ckpt.rar` to `./data/`.
+- Download the DESOBAv2 dataset from [[Baidu Cloud]](https://pan.baidu.com/s/1_nXb3ElxImmsq2BPcBGdPQ?pwd=bcmi) (access code: bcmi) or [[One Drive]](https://1drv.ms/f/c/f4cc25a47574cccf/EmbMRAowxytJiM1KHeeeMqQBD4p1SyIShUdO2PZArkGOIA?e=sEd7ga). Unzip `desobav2-256x256.rar` to `./data/`, and rename it to `desobav2`.
+- Download the checkpoints from [[Baidu Cloud]](https://pan.baidu.com/s/11tr_H9YYIM7UzwOtbHzmpQ?pwd=bcmi) (access code: bcmi) or [[One Drive]](https://1drv.ms/u/c/f4cc25a47574cccf/EY96hOtJjiNPvLm0PBc9SecBais_H9MKRwHL7kme_uTsKQ?e=E5XsHe). Unzip `ckpt.rar` to `./data/`. Note that we also provide an alternative model
+`DESOBAv2_2.pth`, which can replace `DESOBAv2.pth` in `ckpt.rar`.
 
 ### Environment
     conda env create -f environment.yaml
