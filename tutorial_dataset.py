@@ -73,7 +73,7 @@ class TrainDataset(Dataset):
 
 
 class TestDataset(Dataset):
-    def __init__(self, data_file_path, device = None, ifgt=True):    
+    def __init__(self, data_file_path, device = None, ifgt=False):    
         self.device = torch.device("cuda:0") if device == None else device
         self.gpu_ids = [int(self.device.index)]
         self.data_root = data_file_path
