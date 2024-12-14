@@ -34,7 +34,7 @@ Here we provide PyTorch implementation and the trained model of our SGDiffusion.
 - Clone this repo:
     git clone https://github.com/bcmi/Object-Shadow-Generation-Dataset-DESOBAv2.git
 - Download the DESOBAv2 dataset from [[Baidu Cloud]](https://pan.baidu.com/s/1_nXb3ElxImmsq2BPcBGdPQ?pwd=bcmi) (access code: bcmi) or [[One Drive]](https://1drv.ms/f/c/f4cc25a47574cccf/EmbMRAowxytJiM1KHeeeMqQBD4p1SyIShUdO2PZArkGOIA?e=sEd7ga). Unzip `desobav2-256x256.rar` to `./data/`, and rename it to `desobav2`.
-- Download the checkpoints from [[Baidu Cloud]](https://pan.baidu.com/s/11tr_H9YYIM7UzwOtbHzmpQ?pwd=bcmi) (access code: bcmi) or [[One Drive]](https://1drv.ms/f/c/f4cc25a47574cccf/Ek5C_dALB_tIhKxS0OY4KC8B6d4pqJEF_PcPr6v24z6IzQ?e=Kn7vSg). Unzip `ckpt.rar` to `./data/`. Note that we also provide an alternative model
+- Download the checkpoints from [[Baidu Cloud]](https://pan.baidu.com/s/11tr_H9YYIM7UzwOtbHzmpQ?pwd=bcmi) (access code: bcmi) or [[One Drive]](https://1drv.ms/f/c/c718d03566122c80/EgyrW8JfnBRGguliqv-D3-8B8n5YB9mUyqQ0eKS4mzyJOA?e=ZPjAas). Unzip `ckpt.rar` to `./data/`. Note that we also provide an alternative model
 `DESOBAv2_2.pth`, which can replace `DESOBAv2.pth` in `ckpt.rar`.
 
 ### Environment
