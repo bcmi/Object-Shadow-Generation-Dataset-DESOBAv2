@@ -56,4 +56,4 @@ Here we provide PyTorch implementation and the trained model of our SGDiffusion.
 ## Other Resources
 
 + [Awesome-Object-Shadow-Generation](https://github.com/bcmi/Awesome-Object-Shadow-Generation)
-+ [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Image-Composition)
++ [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Object-Insertion)
