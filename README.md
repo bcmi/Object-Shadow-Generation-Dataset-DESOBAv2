@@ -15,7 +15,7 @@ Our improved version GPSDiffusion can be found [here](https://github.com/bcmi/GP
 
 **DESOBAv2** is a large-scale real-world shadow generation dataset containing object-shadow pairs like [**DESOBA**](https://github.com/bcmi/Object-Shadow-Generation-Dataset-DESOBA) dataset with 28,573 foreground objects, which is useful for supervised shadow generation methods. It has 21,575 real images with 28,573 object-shadow pairs from outdoor scenes. In the following example images, from left to right, we show the composite image, the foreground object mask, the foreground shadow mask, the background object mask, the background shadow mask, the ground-truth target image.  
 
-
+ 
 <img src='examples/example_dataset.png' align="center" width=70%>
 
 You can download the full DESOBAv2 Dataset from [[Baidu_Cloud]](https://pan.baidu.com/s/1_nXb3ElxImmsq2BPcBGdPQ?pwd=bcmi) (access code: bcmi) or  [[Dropbox]](https://www.dropbox.com/scl/fo/f71dg98aszqxtn2qs3l1c/ALS7dpAe3dBPbYbRaq10mnY?rlkey=6cm1vcma91yn06ziy3v4cxzxg&st=pmc7niq3&dl=0). We release two versions: the full-resolution version and 256x256 version. 
