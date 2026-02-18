@@ -18,10 +18,10 @@ Our improved version GPSDiffusion can be found [here](https://github.com/bcmi/GP
  
 <img src='examples/example_dataset.jpg' align="center" width=70%>
 
-You can download the full DESOBAv2 Dataset from [[Baidu_Cloud]](https://pan.baidu.com/s/1_nXb3ElxImmsq2BPcBGdPQ?pwd=bcmi) (access code: bcmi) or  [[Dropbox]](https://www.dropbox.com/scl/fo/f71dg98aszqxtn2qs3l1c/ALS7dpAe3dBPbYbRaq10mnY?rlkey=6cm1vcma91yn06ziy3v4cxzxg&st=pmc7niq3&dl=0). We release two versions: the full-resolution version and 256x256 version. 
+You can download the full DESOBAv2 Dataset from [[Baidu_Cloud]](https://pan.baidu.com/s/1Ghy9FzAJslZtdaynYbbLrQ?pwd=m8qb) or  [[Dropbox]](https://www.dropbox.com/scl/fo/f71dg98aszqxtn2qs3l1c/ALS7dpAe3dBPbYbRaq10mnY?rlkey=6cm1vcma91yn06ziy3v4cxzxg&st=73ui9b1n&dl=0). We release two versions: the full-resolution version and 256x256 version. 
 
-We also release 22469 unused shadow images  [[Baidu_Cloud]](https://pan.baidu.com/s/1jfRADN2HI2YjL4L7y1JhmA) (access code: bcmi) or
- [[Dropbox]](https://www.dropbox.com/scl/fi/wi88s1mitkchvwqjmxd2y/unuse_img.rar?rlkey=7qc9e180betekchkunsuniuwj&st=gav0sech&dl=0), in case that you want to extend DESOBAv2 dataset. 
+We also release 22469 unused shadow images  [[Baidu_Cloud]](https://pan.baidu.com/s/1utQKoxfHxsPMWJuVDcMZEw?pwd=gtgr) or
+ [[Dropbox]](https://www.dropbox.com/scl/fi/2owfc5ldmc4jagjl2x4dl/unused_images.rar?rlkey=gviewtvfktyc1y00d0fv7inx8&st=wvdriebx&dl=0), in case that you want to extend DESOBAv2 dataset. 
 
 ## Our SGDiffusion
 Here we provide PyTorch implementation and the trained model of our SGDiffusion.
@@ -29,7 +29,7 @@ Here we provide PyTorch implementation and the trained model of our SGDiffusion.
 ### Installation
 - Clone this repo:
     git clone https://github.com/bcmi/Object-Shadow-Generation-Dataset-DESOBAv2.git
-- Download the DESOBAv2 dataset from [[Baidu Cloud]](https://pan.baidu.com/s/1_nXb3ElxImmsq2BPcBGdPQ?pwd=bcmi) (access code: bcmi) or [[Dropbox]](https://www.dropbox.com/scl/fo/f71dg98aszqxtn2qs3l1c/ALS7dpAe3dBPbYbRaq10mnY?rlkey=6cm1vcma91yn06ziy3v4cxzxg&st=j5hx8as9&dl=0). Unzip `desobav2-256x256.rar` to `./data/`, and rename it to `desobav2`.
+- Download the DESOBAv2 dataset. Unzip `desobav2-256x256.rar` or `desobav2-full-resolution-version.rar` to `./data/`, and rename it to `desobav2`.
 - Download the checkpoints from [[Baidu Cloud]](https://pan.baidu.com/s/11tr_H9YYIM7UzwOtbHzmpQ?pwd=bcmi) (access code: bcmi) or [[Dropbox]](https://www.dropbox.com/scl/fo/y345ctv86zdyamwxv4i4h/AGUqbGKxhD-ipBssbgXKrFw?rlkey=j7hieqaexadn18rbajkbzloj4&st=9xyk2yfa&dl=0). Unzip `ckpt.rar` to `./data/`. Note that we also provide an alternative model
 `DESOBAv2_2.pth`, which can replace `DESOBAv2.pth` in `ckpt.rar`.
 
