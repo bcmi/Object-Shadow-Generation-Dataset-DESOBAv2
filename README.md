@@ -10,7 +10,7 @@ This is the official repository for the following paper:
 Our improved version GPSDiffusion can be found [here](https://github.com/bcmi/GPSDiffusion-Object-Shadow-Generation).
 
 ## Demo
-Try this [online demo](https://libcom.ustcnewly.com/) for image composition and have fun!
+Try this [online demo](http://libcom.ustcnewly.com/) for image composition (object insertion) built upon [libcom](https://github.com/bcmi/libcom) toolbox and have fun!
 
 [![]](https://github.com/user-attachments/assets/87416ec5-2461-42cb-9f2d-5030b1e1b5ec)
 
